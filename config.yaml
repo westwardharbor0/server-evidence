@@ -1,0 +1,19 @@
+config:
+  api:
+    host: "localhost"
+    port: 8080
+    auth: false
+    bearer_token: "example-bearer-token"
+
+  machines:
+    readonly: false
+    file: "./machines.yaml"
+    dump_interval: 2m
+
+  activity_check:
+    check: true
+    check_path: "/health"
+    check_protocol: "https"
+    check_interval: 10m
+    retries: 2
+    alert_endpoint: "http://example.com/report"

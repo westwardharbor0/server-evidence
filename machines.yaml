@@ -1,0 +1,8 @@
+machines:
+    asd-server-1.prod-west.eu:
+        hostname: asd-server-1.prod-west.eu
+        active: true
+        ipv4: 1.1.1.1
+        ipv6: ::1
+        labels:
+            team: infra-1
