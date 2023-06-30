@@ -6,9 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/penglongli/gin-metrics/ginmetrics"
-
 	"github.com/gin-gonic/gin"
+	"github.com/penglongli/gin-metrics/ginmetrics"
 	log "github.com/sirupsen/logrus"
 )
 

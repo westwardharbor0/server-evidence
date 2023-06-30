@@ -8,6 +8,8 @@ Service can run in readonly mode or in edit mode where you can update your machi
 
 The service is written in GoLang
 
+Client library for GO can be found [here](https://github.com/westwardharbor0/go-server-evidence).
+
 # Running locally
 To install all needed dependencies run `go get`.  
 To view the help with all the arguments run `go run . -h`
@@ -97,8 +99,5 @@ These files can be either baked into a docker image or mounted afterwards.
 
 ## TBD
 
-1) Add more tests
-2) Create client library for GO
-3) Create a public docker image to be pulled and used
-4) Add a Makefile with useful commands
-5) Document API endpoints better
+1) Create a public docker image to be pulled and used
+2) Document API endpoints better
